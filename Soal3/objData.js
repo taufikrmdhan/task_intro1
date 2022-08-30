@@ -15,7 +15,7 @@ let data = {
     secondary: "0082342343",
   },
 };
-const updateData = {...data, name: "Taufik Ramadhan", phone: {...data.phone, primari: "082184293411"}};
+const updateData = {...data, name: "Taufik Ramadhan", phone: {...data.phone, primari: "082184293411", secondary: "08218129291"}};
 console.log(updateData)
 
 // non destructuring
